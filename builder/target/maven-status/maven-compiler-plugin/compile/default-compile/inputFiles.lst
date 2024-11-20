@@ -1,0 +1,9 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/HTMLReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/SaleEntry.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/xml/XMLReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/ReportAssembler.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/json/JSONReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/Report.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/SoldItem.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/Customer.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/builder/src/main/java/eu/jpereira/trainings/designpatterns/creational/builder/model/ReportBody.java

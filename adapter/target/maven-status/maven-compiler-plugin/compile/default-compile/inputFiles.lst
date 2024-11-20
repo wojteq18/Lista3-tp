@@ -1,0 +1,11 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/SimpleDoorController.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeStateOfLockedDoor.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/DoorNotManagedException.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/CodeMismatchException.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/model/SimpleDoor.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotChangeCodeForUnlockedDoor.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/model/Door.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/exceptions/IncorrectDoorCodeException.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/ThirdPartyDoor.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/thirdparty/exceptions/CannotUnlockDoorException.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/adapter/src/main/java/eu/jpereira/trainings/designpatterns/structural/adapter/DoorController.java
