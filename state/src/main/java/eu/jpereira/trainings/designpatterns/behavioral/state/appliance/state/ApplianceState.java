@@ -24,11 +24,9 @@ public enum ApplianceState {
 	
 	
 	//TODO: Comment the following definitions 
-	OFF, ON, STOPPED, STARTED, UNKNOW;
+	//OFF, ON, STOPPED, STARTED, UNKNOW;
 	
 	//TODO: Uncomment the following block of code
-	/*
-	
 	
 	OFF {
 		public ApplianceStateBehavior getStateBehavior() {
@@ -55,7 +53,6 @@ public enum ApplianceState {
 			return new UnknowState();
 		}
 	};
-   */
 	/**
 	 * Default
 	 * @return

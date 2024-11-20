@@ -90,13 +90,18 @@ public class ReportBuilder {
 	 * 
 	 * @return A single instance
 	 */
-	public static ReportBuilder getInstance() {
-		System.out.println("Getting instance for Thread " + Thread.currentThread().getId());
-		if (instance == null) {
-			System.out.println("Instance is null for Thread " + Thread.currentThread().getId());
-			instance = new ReportBuilder();
-			System.out.println("Returing " + instance.hashCode() + " instance to Thread " + Thread.currentThread().getId());
-		}
+	public static ReportBuilder getInstance() 
+	{
+		if (instance == null)
+		{
+			synchronized (ReportBuilder.class)
+			{
+				if (instance == null)
+				{
+					instance = new ReportBuilder();
+				}
+			}
+		}	
 		return instance;
 	}
 

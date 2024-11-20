@@ -1,0 +1,13 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/dummy/DummySocialChannelBuilder.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/SocialPublisherTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/spy/TestSpySocialChannel.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/SocialChannelDecortatorIntegrationTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/MessageTruncatorTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/dummy/TestDummyChannel.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/URLAppenderTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/SocialChannelBuilderTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/spy/TestSpySocialChannelBuilder.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/ChannelPropertiesTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/IntegrationTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/decorator/AbstractSocialChanneldDecoratorTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/decorator/src/test/java/eu/jpereira/trainings/designpatterns/structural/decorator/channel/DefaultSocialChannelBuilderTest.java

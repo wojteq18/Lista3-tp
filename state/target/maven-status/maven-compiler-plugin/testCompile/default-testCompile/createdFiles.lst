@@ -1,0 +1,7 @@
+eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/ApplianceStateBehaviorTest.class
+eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeAlarmMapper.class
+eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeStateChangeMapper.class
+eu/jpereira/trainings/designpatterns/behavioral/state/mapper/EventMapperTest.class
+eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeApplianceDAO.class
+eu/jpereira/trainings/designpatterns/behavioral/state/command/director/CommandDirectorTest.class
+eu/jpereira/trainings/designpatterns/behavioral/state/command/EventTest.class

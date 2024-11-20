@@ -15,11 +15,8 @@
  */
 package eu.jpereira.trainings.designpatterns.creational.abstractfactory;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.Report;
-
-import static org.junit.Assert.*;
 
 /**
  * @author jpereira

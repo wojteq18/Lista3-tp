@@ -1,0 +1,10 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerNotificationService.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerDBService.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/WharehouseService.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/OrderingService.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Order.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Book.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/Customer.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/model/DispatchReceipt.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/facade/src/main/java/eu/jpereira/trainings/designpatterns/structural/facade/service/BookDBService.java

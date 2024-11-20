@@ -15,11 +15,12 @@
  */
 package eu.jpereira.trainings.designpatterns.structural.facade.facade;
 
-import static org.mockito.Mockito.*;
-
 import org.junit.Test;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 import eu.jpereira.trainings.designpatterns.structural.facade.BookstoreFacade;
+import eu.jpereira.trainings.designpatterns.structural.facade.DefaultBookstoreFacade;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.Book;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.Customer;
 import eu.jpereira.trainings.designpatterns.structural.facade.model.DispatchReceipt;
@@ -63,14 +64,15 @@ public class BookStoreFacadeTest extends AbstractClientTest {
 	 * @return
 	 */
 	protected BookstoreFacade createFacade() {
-		// TODO: Implement the interface bookstoreFacade and set the
-		// dependencies. We're using mocks, so you'll have to set the mocks as
-		// dependencies of the facade
-		// Example:
-		// impl.setCustomerService(customerService)
-		// impl.setWarehouseService(wharehouseService)
-		// ...
-		// Return an instance of your facade implementation
-		return null;
+        DefaultBookstoreFacade facade = new DefaultBookstoreFacade();
+
+        // Set the mocked services
+        facade.setBookService(bookService);
+        facade.setCustomerService(customerService);
+        facade.setOrderingService(orderingService);
+        facade.setWharehouseService(warehouseService);
+        facade.setCustomerNotificationService(customerNotificationService);
+
+        return facade;
 	}
 }

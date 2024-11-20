@@ -1,0 +1,11 @@
+eu/jpereira/trainings/designpatterns/structural/facade/service/WharehouseService.class
+eu/jpereira/trainings/designpatterns/structural/facade/model/DispatchReceipt.class
+eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerNotificationService.class
+eu/jpereira/trainings/designpatterns/structural/facade/DefaultBookstoreFacade.class
+eu/jpereira/trainings/designpatterns/structural/facade/service/OrderingService.class
+eu/jpereira/trainings/designpatterns/structural/facade/BookstoreFacade.class
+eu/jpereira/trainings/designpatterns/structural/facade/service/BookDBService.class
+eu/jpereira/trainings/designpatterns/structural/facade/model/Order.class
+eu/jpereira/trainings/designpatterns/structural/facade/service/CustomerDBService.class
+eu/jpereira/trainings/designpatterns/structural/facade/model/Customer.class
+eu/jpereira/trainings/designpatterns/structural/facade/model/Book.class

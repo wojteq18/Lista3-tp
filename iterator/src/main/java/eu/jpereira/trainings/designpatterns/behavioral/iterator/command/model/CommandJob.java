@@ -16,12 +16,8 @@
 package eu.jpereira.trainings.designpatterns.behavioral.iterator.command.model;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
-
-import eu.jpereira.trainings.designpatterns.behavioral.iterator.command.model.exceptions.CouldNotConnectException;
-import eu.jpereira.trainings.designpatterns.behavioral.iterator.command.model.results.DBServerInstanceResult;
 
 /**
  * A CommandJob is a composite of {@link Command}
@@ -31,67 +27,25 @@ import eu.jpereira.trainings.designpatterns.behavioral.iterator.command.model.re
  */
 
 //TODO: EXERCISE implement Iterable<Command> and implement the method iterator()
-public class CommandJob implements Command{
+/*public class CommandJob implements Command {
 
-	private List<Command> commands;
+    private List<Command> commands = new ArrayList<>();
 
-	/**
-	 * Create new Command Job
-	 */
-	public CommandJob() {
-		this.commands = new ArrayList<Command>();
-	}
+    public void addCommand(Command command) {
+        commands.add(command);
+    }
 
-	/**
-	 * A a {@link Command} to the Job
-	 * 
-	 * @param command
-	 *            the command
-	 */
-	public void addCommand(Command command) {
-		this.commands.add(command);
-	}
+    @Override
+    public void execute() {
+        for (Command command : commands) {
+            command.execute();
+        }
+    }
 
-	/**
-	 * Get an umodifiable collection of commands
-	 * 
-	 * @return
-	 */
-	public Collection<Command> getCommands() {
-		return Collections.unmodifiableCollection(commands);
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * eu.jpereira.trainings.designpatterns.behavioral.command.model.command
-	 * .Command#execute()
-	 */
-
-	@Override
-	public void execute() throws CouldNotConnectException {
-		// for each command, execute it.
-		// Can store the result
-		for (Command command : this.commands) {
-			command.execute();
-		}
-
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * eu.jpereira.trainings.designpatterns.behavioral.command.model.command
-	 * .Command#getResult()
-	 */
-	@SuppressWarnings("rawtypes")
-	@Override
-	public DBServerInstanceResult getResult() {
-		// Can store the result
-		return null;
-	}
-
-
+    @Override
+    public Object getResult() {
+        // Opcjonalnie, jeśli wymagasz wyników, zintegrowaj wyniki z podkomend
+        return null;
+    }
 }
+*/

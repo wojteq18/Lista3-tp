@@ -20,8 +20,6 @@ import java.security.SecureRandom;
 
 import org.junit.Ignore;
 
-import eu.jpereira.trainings.designpatterns.creational.factorymethod.ReportData;
-
 @Ignore
 public abstract class AbstractReportingTest {
 

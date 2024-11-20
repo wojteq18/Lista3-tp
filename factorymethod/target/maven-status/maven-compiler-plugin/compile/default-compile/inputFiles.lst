@@ -1,0 +1,8 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/AbstractReport.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/PDFReport.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportData.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/HTMLReport.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/Report.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/XMLReport.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/JSONReport.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/factorymethod/src/main/java/eu/jpereira/trainings/designpatterns/creational/factorymethod/ReportGenerator.java

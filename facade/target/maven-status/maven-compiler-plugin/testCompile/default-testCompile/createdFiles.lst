@@ -1,0 +1,4 @@
+eu/jpereira/trainings/designpatterns/structural/facade/service/TestCustomerDBService.class
+eu/jpereira/trainings/designpatterns/structural/facade/facade/BookStoreFacadeTest.class
+eu/jpereira/trainings/designpatterns/structural/facade/facade/AbstractClientTest.class
+eu/jpereira/trainings/designpatterns/structural/facade/service/fake/FakeCustomerNotificationService.class

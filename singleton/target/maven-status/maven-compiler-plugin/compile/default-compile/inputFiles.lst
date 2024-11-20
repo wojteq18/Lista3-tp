@@ -1,0 +1,4 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/ReportBuilder.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/SiteCrawler.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/DummySiteCrawler.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/singleton/src/main/java/eu/jpereira/trainings/designpatterns/creational/singleton/crwaling/CannotCrawlException.java

@@ -15,12 +15,12 @@
  */
 package eu.jpereira.trainings.designpatterns.creational.abstractfactory;
 
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportBody;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportFooter;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportHeader;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportBody;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportFooter;
-import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportHeader;
+import java.util.HashMap;
+import java.util.Map;
+
+import eu.jpereira.trainings.designpatterns.creational.abstractfactory.json.JSONReportFactory;
+import eu.jpereira.trainings.designpatterns.creational.abstractfactory.xml.XMLReportFactory;
+
 
 public class Report {
 
@@ -29,6 +29,7 @@ public class Report {
 	private ReportFooter footer;
 	private ReportHeader header;
 	private String reportType;
+	private static final Map<String, ReportFactory> factory_map = new HashMap<>();
 	
 
 	
@@ -36,60 +37,37 @@ public class Report {
 	/**
 	 * @param string
 	 */
-	public Report(String string) {
-		this.reportType = string;
-		if ( reportType.equals("JSON")) {
-			//to compose Report with JSON objects
-			this.setBody(new JSONReportBody());
-			this.setFooter(new JSONReportFooter());
-			this.setHeader(new JSONReportHeader());
-		} else {
-			this.setFooter(new XMLReportFooter());
-			this.setHeader(new XMLReportHeader());
-			this.setBody(new XMLReportBody());
-		}
-	}
 
-
-	public void setBody(ReportBody body) {
-		this.body = body;
-
-	}
-
+	static 
+	{
+		factory_map.put("JSON", new JSONReportFactory());
+		factory_map.put("XML", new XMLReportFactory());
+	}	
 	
-	public void setFooter(ReportFooter footer) {
-		this.footer = footer;
-
+	public Report(String type)
+	{
+		ReportFactory factory = factory_map.get(type);
+		this.body = factory.createReportBody();
+		this.footer = factory.createReportFooter();
+		this.header = factory.createReportHeader();
 	}
-
-	
-	public void setHeader(ReportHeader header) {
-		this.header = header;
-	}
-
-	public void setReportContent(String reportContent) {
-		this.reportContent = reportContent;
-	}
-
 
 	public String getReportContent() {
-		return reportContent;
-	}
+        return this.body.getType() + this.header.getType() + this.footer.getType();
+    }
 
+    // Getter for ReportBody
+    public ReportBody getBody() {
+        return this.body;
+    }
 
-	public ReportBody getBody() {
-		return body;
-	}
+    // Getter for ReportHeader
+    public ReportHeader getHeader() {
+        return this.header;
+    }
 
-
-	public ReportFooter getFooter() {
-		return footer;
-	}
-
-
-	public ReportHeader getHeader() {
-		return header;
-	}
-
-	
+    // Getter for ReportFooter
+    public ReportFooter getFooter() {
+        return this.footer;
+    }
 }

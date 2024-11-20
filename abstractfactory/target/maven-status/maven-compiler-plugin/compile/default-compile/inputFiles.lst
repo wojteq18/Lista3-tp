@@ -1,0 +1,11 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportFooter.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportFooter.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportElement.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportHeader.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/ReportHeader.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportBody.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/json/JSONReportFooter.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/Report.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/abstractfactory/src/main/java/eu/jpereira/trainings/designpatterns/creational/abstractfactory/xml/XMLReportHeader.java

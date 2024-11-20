@@ -1,0 +1,7 @@
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/director/CommandDirectorTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/command/EventTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeStateChangeMapper.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/appliance/state/ApplianceStateBehaviorTest.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeApplianceDAO.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/fakes/FakeAlarmMapper.java
+/home/vostok/codes/lista3/javatrainings/designpatterns/trunk/state/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/state/mapper/EventMapperTest.java
