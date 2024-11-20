@@ -15,21 +15,27 @@
  */
 package eu.jpereira.trainings.designpatterns.behavioral.visitor.event.filtering;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import eu.jpereira.trainings.designpatterns.behavioral.visitor.event.alarm.HumidityAlarm;
 
 /**
  * @author windows
- * 
- *         TODO: Complete the class. You can see {@link TemperatureAlarmFilter}
- *         for ideas
+ *
  */
 public class HumidityAlarmFilter implements EventFilter {
 
+    private List<HumidityAlarm> results;
+    private Float humidityThreshold = 0.0f;
+
+    public HumidityAlarmFilter() {
+        this.results = new ArrayList<>();
+    }
+
 	/*
 	 * (non-Javadoc)
-	 * 
+	 *
 	 * @see
 	 * eu.jpereira.trainings.designpatterns.behavioral.visitor.event.filtering
 	 * .EventFilter
@@ -38,7 +44,12 @@ public class HumidityAlarmFilter implements EventFilter {
 	 */
 	@Override
 	public void filter(Filterable filtearble) {
-		// TODO See TemperatureAlarmFilter and complete this
+        if(filtearble instanceof HumidityAlarm) {
+            HumidityAlarm humidityAlarm = (HumidityAlarm) filtearble;
+            if(humidityAlarm.getHumidityValue() > this.getHumidityThreshold()) {
+                this.results.add(humidityAlarm);
+            }
+        }
 
 	}
 
@@ -46,16 +57,18 @@ public class HumidityAlarmFilter implements EventFilter {
 	 * @param humidity
 	 */
 	public void setHumidityThreshold(Float humidity) {
-
-		// TODO See TemperatureAlarmFilter and complete this
+        this.humidityThreshold = humidity;
 	}
+
+    public Float getHumidityThreshold() {
+        return this.humidityThreshold;
+    }
 
 	/**
 	 * @return
 	 */
 	public List<HumidityAlarm> getResults() {
-		// TODO See TemperatureAlarmFilter and complete this
-		return null;
+		return this.results;
 	}
 
 }
